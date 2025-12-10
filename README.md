@@ -80,7 +80,8 @@ This resembles real‑world esports analytics, with applications in:
 ```
 ## 🏛️ System Architecture Diagram
 
-```mermaid
+``
+mermaid
 graph TD;
     A[User Input via Streamlit UI]
     B[Feature Engineering Layer]
@@ -92,7 +93,6 @@ graph TD;
     A --> B --> C --> D --> E
     D --> F
 ---
-
 ## 🏗️ Data Pipeline
 
 ### 1️⃣ **Data Cleaning**
