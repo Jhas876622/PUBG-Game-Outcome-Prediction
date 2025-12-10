@@ -12,9 +12,7 @@
 ![Scikit‑Learn](https://img.shields.io/badge/Scikit--Learn-ML%20Tools-f7931e?logo=scikitlearn)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-teal)
-![GitHub Stars](https://img.shields.io/badge/GitHub-Stars-lightgrey?style=social)
-![GitHub Forks](https://img.shields.io/badge/GitHub-Forks-lightgrey?style=social)
-![Live App](https://img.shields.io/badge/Streamlit‑App%20Link-blue?logo=streamlit)-brightgreen)
+![Live App](https://img.shields.io/badge/Streamlit‑App%20Link-blue?logo=streamlit))
 
 ### 🔗 **Live Demo:** [https://pubg-game-win-prediction-app.streamlit.app/](https://pubg-game-win-prediction-app.streamlit.app/)
 
@@ -78,21 +76,6 @@ This resembles real‑world esports analytics, with applications in:
 ├── requirements.txt             # Dependencies
 └── README.md
 ```
-## 🏛️ System Architecture Diagram
-
-``
-mermaid
-graph TD;
-    A[User Input via Streamlit UI]
-    B[Feature Engineering Layer]
-    C[Preprocessing Pipeline]
-    D[CatBoost ML Model]
-    E[Prediction Output]
-    F[SHAP Explainability Module]
-
-    A --> B --> C --> D --> E
-    D --> F
----
 ## 🏗️ Data Pipeline
 
 ### 1️⃣ **Data Cleaning**
