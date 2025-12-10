@@ -1,7 +1,7 @@
 # 🎮 PUBG Win Prediction — Research‑Grade Machine Learning Project
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)(https://pubg-game-win-prediction-app.streamlit.app/)
 ![Machine Learning](https://img.shields.io/badge/ML-Model-green)
 ![CatBoost](https://img.shields.io/badge/CatBoost-Gradient%20Boosting-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -12,7 +12,6 @@
 ![Scikit‑Learn](https://img.shields.io/badge/Scikit--Learn-ML%20Tools-f7931e?logo=scikitlearn)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-teal)
-![Live App](https://img.shields.io/badge/Streamlit‑App%20Link-blue?logo=streamlit))
 
 ### 🔗 **Live Demo:** [https://pubg-game-win-prediction-app.streamlit.app/](https://pubg-game-win-prediction-app.streamlit.app/)
 
