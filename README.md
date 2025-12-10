@@ -84,33 +84,6 @@ Implemented in both notebook + app:
 ### ✔ EDA‑Supported Observations
 
 ```mermaid
-graph LR
-A[Damage Dealt] --> C[Win Probability]
-B[Total Distance] --> C
-D[Kills] --> C
-E[Headshot Rate] --> C
-```
-
-### ✔ Model Training
-
-Algorithms evaluated:
-
-* CatBoost Regressor (best performing)
-* Random Forest
-* Gradient Boosting
-
-### ✔ Evaluation Metrics
-
-* MAE
-* RMSE
-* R²
-* Log-Loss (if framed as classification)
-
----
-
-# ⚙️ **System Architecture**
-
-```mermaid
 graph TD
 A[User Input] --> B[Feature Engineering]
 B --> C[Preprocessing Pipeline]
@@ -119,17 +92,6 @@ D --> E[Single Prediction]
 B --> F[Batch CSV Processor]
 F --> G[Bulk Predictions]
 D --> H[Explainability Engine SHAP]
-```
-
-```mermaid
-graph TD
-A[User Input] --> B[Feature Engineering]
-B --> C[Preprocessing Pipeline]
-C --> D[CatBoost Model]
-D --> E[Single Prediction]
-B --> F[Batch CSV Processor]
-F --> G[Bulk Predictions]
-D --> H[Explainability Engine (SHAP)]
 ```
 
 ---
